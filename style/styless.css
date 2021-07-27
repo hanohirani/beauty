@@ -1,0 +1,157 @@
+* {
+    text-align: center;
+  }
+  h1{
+      font-family: 'Dancing Script', cursive ,Arial, Helvetica, sans-serif;
+      font-size: 5.625rem;/* 16px = 1em = 100% */
+  }
+  .text-brand{
+      font-family: 'Dancing Script', cursive ,Arial, Helvetica, sans-serif;
+  }
+  .reg_dic {
+    height: 3.5rem;
+    background-color: #343f56;
+    color: #f54748;
+  }
+  @media (max-width: 600px) {
+    .reg_dic {
+      height: 5rem;
+    }
+    .beuty_navbar {
+      margin-top: 5rem !important;
+    }
+    .text-home {
+      margin: auto !important;
+      padding-bottom: 5%;
+    }
+    .brand_perfume {
+      height: 24rem;
+    }
+    .item{
+       height: 28rem;
+      }
+      .background_top{
+      background-color: #FB9300;
+        margin: 3% 0% ;
+        height: 250rem !important;
+      }
+      .item-card{
+          margin: 2% auto !important;
+          max-width: 70% !important;
+          max-height: 70% !important;
+      }
+  }
+  .reg_dic:hover {
+    color: aliceblue;
+    background-color: #202227;
+  }
+  .be-navbar {
+    
+  }
+  
+  .title-image {
+    width: 60%;
+  }
+  .beuty_navbar {
+    margin-top: 3rem;
+  }
+  
+  
+  
+  .picture {
+    max-width: 100%;
+    max-height: 99%;
+  }
+  .home {
+    text-align: left;
+    height: 30rem;
+    width: 40rem;
+  }
+  .text-home {
+    position: relative;
+    top: 8px;
+    left: 16px;
+    color: rgb(161, 159, 154);
+    width: 50%;
+    animation:Slide_Up 2s ease ;
+  }
+  
+  @keyframes Slide_Up {
+      0%{
+          transform: translateY(300px);
+      }
+  
+      100%{
+          transform: translateY(0);
+      }
+      
+  }
+  
+  
+  .brand_perfume {
+    background-color: #f5e6ca;
+    height: 34rem;
+    padding-top: 3%;
+    padding-bottom: 5%;
+  }
+  .item {
+    height: 29rem;
+  }
+  .brand-pc {
+    max-width: 100%;
+    max-height: 99%;
+  }
+  .brand-title{
+      text-align: left;
+      color: #242422 ;
+      margin-left: 5%;
+  }
+  
+  
+  
+  
+  .background_top{
+      background-color: #FB9300;
+    margin: 3% 0% ;
+    height: 99rem;
+  }
+  
+  .item-card{
+      margin: 3% 3% ;
+      animation:Slide_Up 4s ease ;
+  }
+  
+  .grey-image{
+      filter: grayscale(100%);
+  }
+  .grey-image:hover{
+      filter: grayscale(0%);
+  }
+  
+  
+  .about_name{
+      font-family: 'Dancing Script', cursive ,Arial, Helvetica, sans-serif;
+      font-size: 5.625rem;/* 16px = 1em = 100% */
+  }
+  .text-about{
+      margin: auto;
+      width: 50%;
+  }
+  .about_pic{
+      height: 30rem;
+    width: 40rem;
+  
+  }
+  
+  
+  #footer{
+      padding-top:7rem;
+      
+  }
+  .copy{
+      color: grey;
+      font-size: small;
+  }
+  .iconfavv{
+      margin: 1rem;
+  }
